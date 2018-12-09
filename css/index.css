@@ -1,0 +1,211 @@
+.navbar a {color:white!important;}
+.navbar p {color:white!important;}
+.navbar .active {color:#55E6C1!important;}
+
+.navbar #logo {margin:4px 7px 4px 4px;;}
+
+.container-fluid > div{
+    border-bottom : solid 1px gray;
+}
+
+#inputville{
+	
+	margin-bottom: 20px;
+	padding-left:4px;
+    
+}
+
+
+#go {background: white;
+	color:#55E6C1;
+	margin-left:3px;
+	max-height: 30px;}
+
+
+#go:hover {background: #55E6C1;
+			color:white;
+			margin-left:3px;}
+
+#ville{
+ 
+	background-position:center ;
+	background-size:cover;
+	min-height: 100vh;
+	background-color:black;
+	padding-top: 15vh;
+	
+	
+}
+
+
+
+#geoloc {
+ 
+	background-position:center ;
+	background-size:cover;
+	min-height: 100vh;
+	background-color:black;
+	padding-top: 15vh;
+	
+	
+}
+
+
+#titre {text-align: center;
+			
+			margin:10px 10px 10px 10px;
+			min-height: 15vh;
+			font-family: 'Lato', sans-serif;
+			font-size: 4vh;
+			color:#55E6C1;
+			
+	}
+
+
+#titre2{text-align: center;
+			
+			margin:5px 5px 5px 5px;
+			min-height: 10vh;
+			font-family: 'Lato', sans-serif;
+			font-size: 3vh;
+			color:#55E6C1;
+			
+	}
+
+
+
+
+
+
+#nom_ville ,#nom_ville2{text-align: center;
+			text-transform: uppercase;
+			color:white;
+			font-family: 'Lato', sans-serif;
+			font-size: 2vh;
+			opacity: 0;
+			
+	}
+
+
+
+
+#ico ,#ico2 {text-align: center;
+			border-right: solid;
+			border-width: 1px;
+			padding:3px;
+			min-height: 25vh;
+			
+	}
+
+#icone img ,#icone2 img{
+			max-height: 15vh;
+			
+	}
+
+
+#icone  ,#icone2 {
+			max-height: 15vh;
+			position: relative;
+			top:35%;
+			opacity: 0;
+			
+	}
+
+
+#desc ,#desc2 {
+			border-bottom: solid;
+			border-width: 1px;
+			padding:30px 3px 3px 30px;
+			min-height: 25vh;
+			
+		
+			
+	}
+
+
+#desc img ,#desc2 img {
+		
+	min-width: 20vh,
+		
+	}
+
+
+#description ,#description2{
+			color:white;
+			font-family: 'Lato', sans-serif;
+			font-size: 2vh;
+			opacity: 0;
+		
+	}
+
+.soustitre{
+
+			font-family: 'Lato', sans-serif;
+			font-size: 2vh;
+			color:#55E6C1;
+		
+}
+
+
+
+#ma , #ma2 {text-align: center;
+			border-left: solid;
+			border-width: 1px;
+			padding:3px;
+			min-height: 25vh;
+			
+	}
+
+
+#max , #max2{
+			color:white;
+			font-family: 'Lato', sans-serif;
+			font-size: 2vh;
+			position: relative;
+			top:25%;
+			opacity: 0;
+			
+	}
+
+
+#mi ,#mi2 {text-align: center;
+			border-top: solid;
+			border-width: 1px;
+			min-height: 25vh;
+			padding:3px;
+	}
+
+
+#min , #min2{
+			color:white;
+			font-family: 'Lato', sans-serif;
+			font-size: 2vh;
+			position: relative;
+			top:25%;
+			opacity: 0;
+			
+	}
+
+
+
+
+.termo{
+			max-height: 15vh;
+			position: relative;
+			top:33%;
+			opacity: 0;
+			
+	}
+
+
+.vide {height: 20px;
+		width: 20px;
+	background-color: black;
+	position: absolute;
+	top:61%;
+
+
+}
+
+
+

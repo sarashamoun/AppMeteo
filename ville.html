@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+
+          <!--<meta http-equiv="Content-Security-Policy" content="default-src 'self' data: gap: https://ssl.gstatic.com 'unsafe-eval'; style-src 'self' 'unsafe-inline'; media-src *; img-src 'self' data: content:;">-->
+       	<meta charset="utf-8">
+        
+        <meta name="format-detection" content="telephone=no">
+        
+        <meta name="msapplication-tap-highlight" content="no">
+        
+        <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width">
+        
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+        
+        <link href="https://fonts.googleapis.com/css?family=Lato:400,700" rel="stylesheet">
+   
+        <link rel="stylesheet" type="text/css" href="css/index.css">
+        <title>Météo</title>
+    </head>
+    <body id="ville">
+    
+       
+    <div class="container-fluid">
+       
+          <nav class="navbar fixed-top navbar-light"><p><img src="img/logo.png" id="logo" style="width: 28px;">AppMétéo</p></nav>  
+
+
+    <div class="row ">
+        
+        <div class="col-12">
+        
+        
+        <div class="row justify-content-center">
+        
+        
+         <div id="titre2" class="col-12">LA VILLE DE VOTRE CHOIX :
+        <div id="nom_ville2">?</div>
+     	</div>
+        
+        
+     
+         <input type="text" id="inputville" placeholder="Nom de la ville"><button id="go">GO</button>
+        
+    	
+       
+       	<div class="col-5" id="ico2">
+        <div id="icone2"></div>
+        </div>
+        <!--fin nom ville-->
+        
+        
+           <div class="col-5" id="desc2">
+        
+        	<div class="row">
+        	
+        		<div class="col-12">
+        		
+        		<div class="row align-items-center">
+        
+        		<img src="img/arrow.png">
+        		
+        		<div class="col-7">
+        		
+        		<div class="soustitre">DESCRIPTION</div>
+        		<div id="description2">?</div>
+        		
+        		</div>
+        		</div>
+        		
+        		</div>
+        	</div>
+        	
+        </div><!--fin description-->
+        
+
+        <div class="col-5" id="mi">
+        	
+        	<div class="termo"><img src="img/min.png"></div>
+        	<div id="min2"></div>
+        	
+        </div><!--fin min-->
+        
+                
+           <div class="col-5" id="ma">
+        	
+        	<div class="termo"><img src="img/max.png"></div>
+        	<div id="max2"></div>
+        	
+        </div><!--fin max-->
+        
+        <div class="vide"></div>
+      
+        </div><!--fin row-->    
+        </div> <!--fin col-->    
+		</div><!--fin row--> 
+       
+          
+        <nav class="navbar fixed-bottom navbar-light bg-dark">
+         
+          <a class="navbar-brand " href="index.html">Geoloc</a>
+          
+          <a class="navbar-brand active" href="ville.html">Ville</a>
+        </nav> 
+        
+    </div>   
+       
+       
+       
+       
+       
+       
+       
+       
+<!--  /////////////////SCRIPTS/////////////// -->
+     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.2.min.js"><\/script>')</script>
+        
+       <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.0.2/plugins/CSSPlugin.min.js"></script>
+       
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.0.2/easing/EasePack.min.js"></script>
+     
+     	<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.18.2/TimelineLite.min.js"></script>
+      
+       <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.0.2/TweenLite.min.js"></script>
+
+        
+        <script
+  		src="https://code.jquery.com/jquery-3.3.1.min.js"
+  		integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+ 		 crossorigin="anonymous"></script>
+
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+        
+        <script type="text/javascript" src="cordova.js"></script>
+      	<script type="text/javascript" src="js/animation.js"></script>
+        <script type="text/javascript" src="js/index.js"></script>
+    </body>
+</html>
